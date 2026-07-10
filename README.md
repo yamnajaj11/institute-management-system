@@ -1,6 +1,3 @@
-
-
-```markdown
 # Institute Management System
 
 A complete Institute Management System developed using Laravel to manage students, courses, attendance, exams, marks, and payments.
@@ -16,11 +13,13 @@ The system provides tools for managing students, courses, academic activities, a
 ## Features
 
 ### Student Management
+
 - Add, edit, and manage students.
 - Store student information.
 - Track student records.
 
 ### Academic Management
+
 - Manage courses.
 - Manage subjects.
 - Manage sections.
@@ -28,10 +27,12 @@ The system provides tools for managing students, courses, academic activities, a
 - Manage exams and marks.
 
 ### Financial Management
+
 - Manage payments.
 - Track student fees and financial transactions.
 
 ### System Features
+
 - User authentication.
 - User roles and permissions.
 - Dashboard.
@@ -112,6 +113,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/yamnajaj11/institute-management-system.git
+
 cd institute-management-system
 composer install
 cp .env.example .env
