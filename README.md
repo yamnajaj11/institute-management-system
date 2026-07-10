@@ -1,76 +1,3 @@
-# Institute Management System
-
-A complete Institute Management System developed using Laravel to manage students, courses, attendance, exams, marks, and payments.
-
-## About The Project
-
-This system helps educational institutes manage their daily operations through a web-based platform. It provides tools for managing students, courses, attendance, exams, financial transactions, and user roles.
-
-## Features
-
-### Student Management
-- Add and manage students
-- Student profiles
-- Student information tracking
-
-### Academic Management
-- Courses management
-- Subjects management
-- Sections management
-- Attendance tracking
-- Exams and marks management
-
-### Financial Management
-- Payments management
-- Student fees tracking
-
-### System Features
-- Authentication system
-- User roles and permissions
-- Dashboard
-- Responsive interface
-
-## Technologies
-
-- PHP
-- Laravel
-- MySQL
-- Blade Template Engine
-- Bootstrap
-- Livewire
-- JavaScript
-- HTML / CSS
-
-## Architecture
-
-The project was developed using:
-
-- MVC Architecture
-- Repository Pattern
-- Laravel Migrations
-- Eloquent ORM
-
-## Database
-
-The database structure was designed using Laravel Migrations with relationships between tables to ensure data consistency.
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/USERNAME/institute-management-system.git
- 
-composer install
-cp .env.example .env
-php artisan key:generate 
-php artisan migrate
-php artisan serve
-
-
-
-
-
 
 # نظام إدارة معهد
 
@@ -141,5 +68,20 @@ php artisan migrate
 php artisan serve 
 
 
+## Screenshots
 
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Students Management
+![Students](screenshots/students.png)
+
+### Courses Management
+![Courses](screenshots/courses.png)
+
+### Attendance Management
+![Attendance](screenshots/attendance.png)
  
