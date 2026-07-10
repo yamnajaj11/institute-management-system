@@ -132,4 +132,14 @@ php artisan serve
 ## طريقة التشغيل
 
 تحميل المشروع:
+git clone https://github.com/USERNAME/institute-management-system.git
+ 
+composer install
+cp .env.example .env
+php artisan key:generate 
+php artisan migrate
+php artisan serve 
+
+
+
  
