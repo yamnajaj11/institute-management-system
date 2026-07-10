@@ -1,6 +1,4 @@
 
----
-
 # README - Institute Management System
 
 ```markdown
