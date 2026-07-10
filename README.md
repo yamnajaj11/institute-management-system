@@ -56,17 +56,6 @@
 
 تم تصميم قاعدة البيانات باستخدام Laravel Migrations مع إنشاء العلاقات بين الجداول باستخدام المفاتيح الأساسية والخارجية.
 
-## طريقة التشغيل
-
-تحميل المشروع:
-git clone https://github.com/USERNAME/institute-management-system.git
- 
-composer install
-cp .env.example .env
-php artisan key:generate 
-php artisan migrate
-php artisan serve 
-
 
 ## Screenshots
 
@@ -84,4 +73,17 @@ php artisan serve
 
 ### Attendance Management
 ![Attendance](screenshots/attendance.png)
+
+
+## طريقة التشغيل
+
+تحميل المشروع:
+git clone https://github.com/USERNAME/institute-management-system.git
+ 
+composer install
+cp .env.example .env
+php artisan key:generate 
+php artisan migrate
+php artisan serve 
+
  
